@@ -1,0 +1,71 @@
+/* Style de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("im2.jfif");
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #5d6db4;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Webcam section */
+.webcam-section {
+    margin-top: 20px;
+}
+
+#webcam {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(220, 215, 215);
+}
+
+/* Emotion result section */
+.emotion-result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Suggestions section */
+.suggestions {
+    margin-top: 20px;
+    font-size: 1.2em;
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    background-color: #5d6db4;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}

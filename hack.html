@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindCare: Votre Assistant Bien-Être</title>
+    <link rel="stylesheet" href="hack.css">
+</head>
+<body>
+    <header>
+        <h1>MindCare</h1>
+        <p>Votre bien-être émotionnel à portée de main</p>
+    </header>
+
+    <main>
+        <section class="webcam-section">
+            <video id="webcam" autoplay></video>
+        </section>
+
+        <section id="emotionResult" class="emotion-result">
+            <p><strong>Emotion détectée :</strong> <span id="emotionText">Aucune</span></p>
+        </section>
+
+        <section id="suggestions" class="suggestions">
+            <p>Suggestions pour améliorer votre bien-être :</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>MindCare - Votre partenaire en santé mentale</p>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+    <script src="hack.js"></script>
+</body>
+</html>
